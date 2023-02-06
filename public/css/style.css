@@ -1,0 +1,36 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
+
+@font-face {
+    font-family: "Hexenaat";
+    src: url('../font/Hexenaat.ttf');
+}
+
+* {
+    font-family: 'Manrope', sans-serif;
+}
+
+.company-name {
+    font-family: "Hexenaat", monospace;
+    font-size: 3rem;
+    margin: 10px 0;
+}
+
+body {
+    margin: 50px 0 0 0;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+
+    height: 100vh;
+}
+
+main {
+}
+
+.loader {
+    display: none;
+}
+
+/* Color Swaps */
